@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@project/api/blog": ["libs/api/blog/src/index.ts"],
+      "@project/api/config": ["libs/api/config/src/index.ts"],
+      "@project/api/core": ["libs/api/core/src/index.ts"],
+      "@project/api/interface": ["libs/api/interface/src/index.ts"],
+      "@project/api/user": ["libs/api/user/src/index.ts"],
+      "@project/myapp/mylib": ["libs/myapp/mylib/src/index.ts"],
+      "@project/types": ["libs/types/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
